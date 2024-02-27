@@ -2,9 +2,9 @@
   <div>
     <div v-if="error" class="page lists-show">
       <div class="wrapper-message">
-        <span class="icon-face-sad" />
         <p class="title-message">Oh no!</p>
         <p class="subtitle-message">Something went wrong</p>
+        <span class="icon-face-sad" />
       </div>
     </div>
     <div v-else class="page lists-show">
